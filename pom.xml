@@ -110,7 +110,7 @@
 			<scope>provided</scope>
 		</dependency> -->
 		<!-- Mule Transports -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.mule.transports</groupId>
 			<artifactId>mule-transport-file</artifactId>
 			<version>${mule.version}</version>
@@ -121,7 +121,7 @@
 			<artifactId>mule-transport-http</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 		<!-- <dependency>
         	<groupId>com.mulesoft.muleesb.transports</groupId>
 			<artifactId>mule-transport-jdbc-ee</artifactId>
@@ -134,14 +134,14 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency> -->
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>org.mule.transports</groupId>
 			<artifactId>mule-transport-vm</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 		<!-- Mule Modules -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-module-scripting</artifactId>
 			<version>${mule.version}</version>
@@ -152,9 +152,9 @@
 			<artifactId>mule-module-xml</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 		<!-- for testing -->
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>org.mule.tests</groupId>
 			<artifactId>mule-tests-functional</artifactId>
 			<version>${mule.version}</version>
@@ -165,7 +165,7 @@
             <artifactId>mule-module-apikit</artifactId>
             <version>${mule.version}</version>
             <scope>provided</scope>
-        </dependency>
+        </dependency> -->
     </dependencies>
 
 	<repositories>

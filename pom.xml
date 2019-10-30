@@ -54,6 +54,43 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+					 <groupId>org.mule.tools.maven</groupId>
+					 <artifactId>mule-maven-plugin</artifactId>
+					 <version>2.3.3</version>
+			</plugin>
+			
+			<plugin>
+			  <groupId>org.mule.tools.maven</groupId>
+			  <artifactId>mule-maven-plugin</artifactId>
+			 <version>2.3.3</version>
+			  <extensions>true</extensions>
+			  <configuration>
+			    <cloudHubDeployment>
+			      <uri>https://anypoint.mulesoft.com</uri>
+			      <muleVersion>3.9.3</muleVersion>
+			      <username>muleesb21</username>
+			      <password>Muleesb@21</password>
+			      <applicationName>unitedapi</applicationName>
+			      <environment>Sandbox</environment>
+			      <workerType>Micro</workerType> 
+			       <workers>1</workers>
+			      <properties>
+			        <key>value</key>
+			      </properties>
+			    </cloudHubDeployment>
+			  </configuration>
+			  <executions>
+	          <execution>
+	            <id>deploy</id>
+	            <phase>deploy</phase>
+	            <goals>
+	              <goal>deploy</goal>
+	            </goals>
+	          </execution>
+	        </executions>
+			</plugin>
+			
 		</plugins>
 	</build>
 
